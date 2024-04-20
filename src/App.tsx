@@ -7,6 +7,7 @@ import Menu from "./components/menu/Menu";
 import Footer from "./components/footer/Footer";
 import Product from "./pages/products/Product";
 import Login from "./pages/login/Login";
+import "./styles/global.scss";
 
 function App() {
   const Layout = () => {
