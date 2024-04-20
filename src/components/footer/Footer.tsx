@@ -1,7 +1,12 @@
 import "./footer.scss";
 
 const Footer = () => {
-  return <div className="navbar">Footer</div>;
+  return (
+    <div className="footer">
+      <span>selAdmin</span>
+      <span> Sel Admin Dev Dashboard</span>
+    </div>
+  );
 };
 
 export default Footer;
